@@ -3,6 +3,7 @@
 Simple `UnsupportedOperationException` and `UnimplementedException` for C++.
 
 ## Example
+
 ```c++
 void notImplemented() {
 	throw UnException::UnimplementedException{};
